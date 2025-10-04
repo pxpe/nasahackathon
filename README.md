@@ -30,7 +30,7 @@
 
 1. Clona el repositorio:
 ```bash
-git clone <repository-url>
+git clone https://github.com/pxpe/nasahackathon.git
 cd treesar
 ```
 
@@ -93,3 +93,4 @@ treesar/
 ## 🏆 NASA Space Apps
 
 Desarrollado para el hackathon NASA Space Apps, este proyecto demuestra el potencial de las tecnologías web modernas para visualizar y analizar datos satelitales de manera accesible e interactiva.
+
