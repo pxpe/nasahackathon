@@ -1,29 +1,53 @@
-TreeSAR - NASA Space Apps MVP
-Una aplicación MVP para el hackathon NASA Space Apps que estudia imágenes de satélite SAR y muestra el impacto ambiental de la deforestación.
+# 🌲 TreeSAR — NASA Space Apps MVP
 
-🌍 Características
-Globo 3D Interactivo: Visualización del planeta Tierra con waypoints de sitios de deforestación
-Mapas Interactivos: Análisis detallado de sitios específicos con capas SAR
-Datos Ambientales: Información en tiempo real sobre el impacto de la deforestación
-Diseño Espacial: Interfaz futurista con glassmorphism y animaciones suaves
-Totalmente Responsivo: Optimizado para móvil, tablet y escritorio
-🚀 Tecnologías Utilizadas
-Next.js 14 (App Router)
-React Three Fiber + Drei (Globo 3D)
-React Leaflet (Mapas interactivos)
-Framer Motion (Animaciones)
-TailwindCSS (Estilos)
-TypeScript (Tipado)
-📦 Instalación
-Clona el repositorio:
+**TreeSAR** es una aplicación **MVP** desarrollada para el **hackathon NASA Space Apps**, que analiza imágenes de satélite **SAR (Synthetic Aperture Radar)** para visualizar el impacto ambiental de la **deforestación** en diferentes regiones del mundo.
+
+---
+
+## 🌍 Características Principales
+
+✨ **Globo 3D Interactivo:** Visualización del planeta Tierra con *waypoints* en zonas de deforestación  
+🗺️ **Mapas Interactivos:** Análisis detallado de sitios con capas SAR  
+🌡️ **Datos Ambientales:** Información en tiempo real sobre impacto ecológico  
+🚀 **Diseño Espacial:** Interfaz futurista con *glassmorphism* y animaciones suaves  
+📱 **Totalmente Responsivo:** Compatible con móvil, tablet y escritorio  
+
+---
+
+## 🧠 Tecnologías Utilizadas
+
+| Categoría | Tecnologías |
+|------------|-------------|
+| 🌐 **Frontend** | Next.js 14 (App Router), React, TypeScript |
+| 🪐 **Visualización 3D** | React Three Fiber + Drei |
+| 🗺️ **Mapas** | React Leaflet |
+| 🎨 **Estilos y Animaciones** | TailwindCSS, Framer Motion |
+| ⚙️ **Tipado** | TypeScript |
+
+---
+
+## ⚙️ Instalación y Ejecución
+
+1. Clona el repositorio:
+```bash
 git clone <repository-url>
 cd treesar
-Instala las dependencias:
+```
+
+2. Instala las dependencias:
+```bash
 npm install
-Ejecuta la aplicación en modo desarrollo:
+```
+
+3. Ejecuta la aplicación en modo desarrollo:
+```bash
 npm run dev
-Abre http://localhost:3000 en tu navegador.
+```
+
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
 🗂️ Estructura del Proyecto
+```
 treesar/
 ├── app/
 │   ├── globals.css          # Estilos globales con tema espacial
@@ -40,45 +64,32 @@ treesar/
 │   └── sites.json           # Datos mock de sitios de deforestación
 └── public/
     └── images/              # Imágenes mock (satelitales, SAR)
-🌍 Sitios de Deforestación Incluidos
-Amazon Rainforest (Brasil)
-Borneo Forest (Indonesia)
-Congo Basin (África Central)
-Madagascar Forest (Madagascar)
-🎨 Características de Diseño
-Tema Espacial: Fondos oscuros con estrellas animadas
-Glassmorphism: Efectos de vidrio con transparencia y desenfoque
-Animaciones Suaves: Transiciones fluidas con Framer Motion
-Colores Neón: Acentos en cian, verde y morado
-Tipografía: Inter y Poppins para una apariencia moderna
-🔧 Funcionalidades
-Página Principal (/)
-Globo 3D que rota automáticamente
-Waypoints interactivos en ubicaciones de deforestación
-Información de sitios al hacer clic
-Navegación a páginas de sitios individuales
-Página de Sitio (/site/[id])
-Mapa interactivo centrado en el sitio
-Selector de capas SAR (HH, HV, VH)
-Panel de información ambiental expandible
-Alertas de riesgo de deforestación
-Polígonos que muestran áreas afectadas
-📊 Datos Mock Incluidos
-Probabilidad de origen (humano vs. fuego natural)
-Número de árboles afectados
-Emisiones de ozono estimadas
-Animales afectados
-Área total afectada
-Fechas de última actualización
-🚀 Próximos Pasos
-Este MVP está preparado para:
+```
 
-Integración con datos reales de satélites SAR
-Conexión con APIs de NASA
-Análisis más detallado de imágenes
-Alertas en tiempo real
-Exportación de reportes
-🏆 NASA Space Apps
+## 🔧 Funcionalidades
+
+### Página Principal (`/`)
+- Globo 3D que rota automáticamente
+- Waypoints interactivos en ubicaciones de deforestación
+- Información de sitios al hacer clic
+- Navegación a páginas de sitios individuales
+
+### Página de Sitio (`/site/[id]`)
+- Mapa interactivo centrado en el sitio
+- Selector de capas SAR (HH, VH, )
+- Panel de información ambiental expandible
+- Alertas de riesgo de deforestación
+- Polígonos que muestran áreas afectadas
+
+## 📊 Datos Mock Incluidos
+
+- Probabilidad de origen (humano vs. fuego natural)
+- Número de árboles afectados
+- Emisiones de ozono estimadas
+- Animales afectados
+- Área total afectada
+- Fechas de última actualización
+
+## 🏆 NASA Space Apps
+
 Desarrollado para el hackathon NASA Space Apps, este proyecto demuestra el potencial de las tecnologías web modernas para visualizar y analizar datos satelitales de manera accesible e interactiva.
-
-Nota: Esta es una versión MVP con datos mock. Los datos reales se integrarán en futuras versiones.
