@@ -1,0 +1,140 @@
+﻿{
+  "sites": [
+    {
+      "id": "paraguay",
+      "name": "Paraguay Forest",
+      "description": "The Paraguay's largest tropical rainforest, critical for global climate regulation",
+      "coordinates": [-21.238858, -61.896854],
+      "image": "/images/amazon-satellite.jpg",
+      "satelliteImage": "/images/amazon-sar.jpg",
+      "deforestationData": {
+        "probabilityOfOrigin": {
+          "human": 0.75,
+          "fire": 0.25
+        },
+        "treesAffected": 1250000,
+        "ozoneEmitted": 45000,
+        "animalsAffected": 8500,
+        "areaAffected": 1250.5,
+        "lastUpdated": "2024-01-15"
+      },
+      "sarLayers": {
+        "vh": "/images/paraguay_VH.png",
+        "vv": "/images/paraguay_VV.png",
+        "regions": "/images/paraguay_regions.png"
+      },
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-60.787884, -22.297361],
+          [-63.399059, -21.679770],
+          [-62.993732, -20.184231],
+          [-60.406742, -20.794071],
+          [-60.787884, -22.297361]
+        ]]
+      }
+    },
+    {
+      "id": "borneo-forest",
+      "name": "Borneo Forest",
+      "description": "One of the most biodiverse regions on Earth, home to orangutans and countless species",
+      "coordinates": [0.7893, 113.9213],
+      "image": "/images/borneo-satellite.jpg",
+      "satelliteImage": "/images/borneo-sar.jpg",
+      "deforestationData": {
+        "probabilityOfOrigin": {
+          "human": 0.85,
+          "fire": 0.15
+        },
+        "treesAffected": 890000,
+        "ozoneEmitted": 32000,
+        "animalsAffected": 4200,
+        "areaAffected": 890.2,
+        "lastUpdated": "2024-01-12"
+      },
+      "sarLayers": {
+        "hh": "/images/sar-hh-borneo.jpg",
+        "hv": "/images/sar-hv-borneo.jpg",
+        "vh": "/images/sar-vh-borneo.jpg"
+      },
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [[
+          [113.7, 0.6],
+          [114.1, 0.6],
+          [114.1, 1.0],
+          [113.7, 1.0],
+          [113.7, 0.6]
+        ]]
+      }
+    },
+    {
+      "id": "congo-basin",
+      "name": "Congo Basin",
+      "description": "The second largest tropical rainforest, vital for carbon storage and biodiversity",
+      "coordinates": [-0.2280, 15.8277],
+      "image": "/images/congo-satellite.jpg",
+      "satelliteImage": "/images/congo-sar.jpg",
+      "deforestationData": {
+        "probabilityOfOrigin": {
+          "human": 0.65,
+          "fire": 0.35
+        },
+        "treesAffected": 2100000,
+        "ozoneEmitted": 78000,
+        "animalsAffected": 12000,
+        "areaAffected": 2100.8,
+        "lastUpdated": "2024-01-18"
+      },
+      "sarLayers": {
+        "hh": "/images/sar-hh-congo.jpg",
+        "hv": "/images/sar-hv-congo.jpg",
+        "vh": "/images/sar-vh-congo.jpg"
+      },
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [[
+          [15.6, -0.1],
+          [16.0, -0.1],
+          [16.0, -0.4],
+          [15.6, -0.4],
+          [15.6, -0.1]
+        ]]
+      }
+    },
+    {
+      "id": "madagascar-forest",
+      "name": "Madagascar Forest",
+      "description": "Unique ecosystem with 90% endemic species, facing severe deforestation",
+      "coordinates": [-18.7669, 46.8691],
+      "image": "/images/madagascar-satellite.jpg",
+      "satelliteImage": "/images/madagascar-sar.jpg",
+      "deforestationData": {
+        "probabilityOfOrigin": {
+          "human": 0.90,
+          "fire": 0.10
+        },
+        "treesAffected": 450000,
+        "ozoneEmitted": 18000,
+        "animalsAffected": 2800,
+        "areaAffected": 450.3,
+        "lastUpdated": "2024-01-10"
+      },
+      "sarLayers": {
+        "hh": "/images/sar-hh-madagascar.jpg",
+        "hv": "/images/sar-hv-madagascar.jpg",
+        "vh": "/images/sar-vh-madagascar.jpg"
+      },
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [[
+          [46.7, -18.6],
+          [47.0, -18.6],
+          [47.0, -18.9],
+          [46.7, -18.9],
+          [46.7, -18.6]
+        ]]
+      }
+    }
+  ]
+}

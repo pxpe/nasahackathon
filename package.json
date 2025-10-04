@@ -1,0 +1,36 @@
+{
+    "name": "treesar",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.88.13",
+        "@react-three/fiber": "^8.15.12",
+        "framer-motion": "^10.16.16",
+        "leaflet": "^1.9.4",
+        "leaflet-imageoverlay-rotated": "^0.2.1",
+        "lucide-react": "^0.294.0",
+        "next": "14.0.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-leaflet": "^4.2.1",
+        "three": "^0.160.0"
+    },
+    "devDependencies": {
+        "@types/leaflet": "^1.9.8",
+        "@types/node": "^20.10.0",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "autoprefixer": "^10.4.15",
+        "eslint": "^8.52.0",
+        "eslint-config-next": "14.0.4",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.3.3"
+    }
+}
