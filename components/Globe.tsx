@@ -353,7 +353,7 @@ function Globe() {
             </div>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">{selectedSatellite.info}</p>
             <button
-              onClick={() => router.push('/howsar')}
+              onClick={() => router.push('https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar')}
               className="w-full bg-gradient-to-r from-neon-cyan to-neon-purple text-white py-3 px-6 rounded-lg font-medium hover:shadow-lg hover:shadow-neon-cyan/25 transition-all duration-300 transform hover:scale-105"
             >
               Saber más

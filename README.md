@@ -1,6 +1,23 @@
+![Sobre TreeSAR](assets/banner.png)
+
 # 🌲 TreeSAR — NASA Space Apps MVP
 
+
+
 **TreeSAR** es una aplicación **MVP** desarrollada para el **hackathon NASA Space Apps**, que analiza imágenes de satélite **SAR (Synthetic Aperture Radar)** para visualizar el impacto ambiental de la **deforestación** en diferentes regiones del mundo.
+
+---
+
+## 📸 Capturas
+
+![Pantalla Principal](assets/globe.jpg)
+![Otra Vista](assets/focus.jpg)
+![Otra Vista](assets/focussatellite.jpg)
+![Otra Vista](assets/map_study.jpg)
+![Otra Vista](assets/map_environment_impact.jpg)
+![Otra Vista](assets/layer_selector.jpg)
+![Otra Vista](assets/show_sarPolarizations.jpg)
+![Otra Vista](assets/sar_regions.jpg)
 
 ---
 
